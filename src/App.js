@@ -2,7 +2,8 @@ import './App.css';
 import React, {useEffect} from 'react';
 
 function App(){
-
+ 
+  
 useEffect(()=>{
   fetch('https://jsonplaceholder.typicode.com/posts/1')
   .then((response) => response.json())
